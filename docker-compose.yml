@@ -1,7 +1,7 @@
 version: '2'
 services:
     jenkins.docker:
-        image: Magicfirm/jenkins-blueocean
+        image: magicfirm/jenkins-blueocean
         ports:
             - "8081:8080"
             - "50000:50000"
